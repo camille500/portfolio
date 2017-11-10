@@ -1,0 +1,35 @@
+{
+  "name": "portfolio-camille-niessen",
+  "version": "1.0.0",
+  "description": "Portfolio for Camille Sébastien Niessen",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camille500/portfolio.git"
+  },
+  "author": "Camille Sébastien Niessen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camille500/portfolio/issues"
+  },
+  "homepage": "https://github.com/camille500/portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "path": "^0.12.7",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "nodemon": "^1.12.1"
+  }
+}
